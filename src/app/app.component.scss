@@ -1,9 +1,33 @@
 /* General Styling */
 body {
+    font-family: 'Inter', sans-serif;
+    /* Apply Inter font globally */
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f5f7fa, #e4e8ec);
+    padding: 0;
+    background-color: #f9f9f9;
+    /* Light background for contrast */
     color: #333;
+    /* Darker text for readability */
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    /* Bold weight for titles */
+    color: #222;
+    /* Slightly darker for headings */
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    /* Regular weight for body text */
+    line-height: 1.6;
+    /* Increase spacing for readability */
+    color: #555;
+    /* Softer gray for paragraph text */
 }
 
 /* App Container */
