@@ -65,19 +65,30 @@ h1 {
 }
 
 .cta-button {
+    display: inline-block;
     padding: 12px 25px;
     background: #ff6347;
-    color: #fff;
+    color: white;
     font-size: 1.1rem;
+    text-decoration: none;
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    text-align: center;
+    transition: background 0.3s ease;
 }
 
 .cta-button:hover {
     background: #e0533b;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    font-size: 18px;
 }
 
 /* Info Section */
